@@ -1,4 +1,6 @@
-#  technologies used in this project :Java (11), Spring Framework (5.2), Spring Boot (2.2), Maven (3.6), H2 Database Engine (1.4), Thymeleaf (3.0) i Bootstrap (4.3)
+#  Quiz
+
+technologies used in this project :Java (11), Spring Framework (5.2), Spring Boot (2.2), Maven (3.6), H2 Database Engine (1.4), Thymeleaf (3.0) i Bootstrap (4.3)
 
 The aim of this project is to prepare a quiz game on the web.
 The user selects the question category that interests him, as well as their level of difficulty then program generates a set of tasks for the player.
