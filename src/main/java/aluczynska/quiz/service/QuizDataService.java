@@ -33,6 +33,7 @@ public class QuizDataService {
                 .queryParam("amount", gameOptions.getNumberOfQuestions())
                 .queryParam("category", gameOptions.getCategoryId())
                 .queryParam("difficulty", gameOptions.getDifficulty())
+                .queryParam("difficulty", gameOptions.getDifficulty().name().toLowerCase())
                 .build().toUri();
         log.info("Quiz question retrieve URL: " + uri);
 
